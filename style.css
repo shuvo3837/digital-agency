@@ -188,3 +188,53 @@ hr{
 .card img{
     width: 100%;
 }
+
+/* footer style */
+footer{
+    background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1.1), rgba(0, 0, 0, .8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+    
+    color: aliceblue;
+}
+.logo-footer{
+    width: 100px;
+    height: 50px; 
+    margin-bottom: 30px;
+
+}
+
+.icon-footer{
+    display: flex;
+    gap: 10px;
+}
+.icon-footer img{
+    height: 30px;
+    width: 40px;
+}
+.footer h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer-description{
+    margin-bottom: 3px;
+}
+.end{
+    color: white;
+    padding-left: 40%;
+   
+}
+.fh{
+    height: 0px;
+    margin: 20px 35px 10px 35px;
+}
