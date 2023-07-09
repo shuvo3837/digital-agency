@@ -40,7 +40,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    /* padding: 300px; */
     color: aliceblue;
 }
 
@@ -67,4 +66,68 @@ span{
 }
 .bg-primary{
     background-color: white;
+}
+
+/* srevice style */
+.Service-container{
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    color: white;
+}
+
+.box{
+    width: 180px;
+    height: 180px;
+    background-color: azure;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.icon{
+    width: 100px;
+}
+.Service-description{
+    width: 300px;
+    
+}
+
+.box-container{
+    display: flex;
+    
+}
+
+/* profile style */
+.sub-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+hr{
+    height: 100px;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-profile img{
+    border-radius: 50%;
+    height: 100px;
+}
+.br{
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
